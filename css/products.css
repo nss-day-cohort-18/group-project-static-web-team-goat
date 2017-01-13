@@ -3,3 +3,53 @@
   backgrounds-blend-mode: screen;
   background-repeat: no-repeat;
 }
+
+#main {
+  width: 75%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+div#parent {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+img {
+  width: 60%;
+}
+
+.employees {
+  width: 50%;
+  text-align: center;
+  padding-top: 5%;
+  border: 3px solid red;
+}
+
+.employees p {
+  padding: 10%;
+}
+
+#footer {
+  height: 5%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#footer-ul {
+  display: inline-block;
+}
+
+.footer-li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-image {
+  height: 30px;
+  padding: 0 50px;
+}
