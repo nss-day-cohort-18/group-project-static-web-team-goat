@@ -1,0 +1,28 @@
+#main {
+  width: 75%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+div#parent {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+img {
+  width: 60%;
+}
+
+.employees {
+  width: 50%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.employees p {
+  padding: 10%;
+}
