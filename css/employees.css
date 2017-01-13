@@ -1,3 +1,9 @@
+#main-head {
+  background-image: url("../images/dirtroadfield-copy.jpg");
+  backgrounds-blend-mode: screen;
+  background-repeat: no-repeat;
+}
+
 #main {
   width: 75%;
   margin: auto;
