@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+.clear {
+    clear: both;
+}
+
 /****************************
 HEADER
 ****************************/
@@ -40,6 +44,10 @@ nav a {
     color: #EDEDED;
 }
 
+nav a.selected, nav a:hover {
+  color: #666666;
+}
+
 #main-head {
     clear: both;
     text-align: center;
@@ -53,6 +61,8 @@ nav a {
 h1 {
     padding-top: 10%;
 }
+
+
 
 /****************************
 BODY

@@ -1,0 +1,24 @@
+/****************************
+HEADER BACKGROUND
+****************************/
+
+#main-head {
+background-image: url("../images/fieldwindmill-copy.jpg");
+backgrounds-blend-mode: screen;
+background-repeat: no-repeat;
+}
+
+/****************************
+ARTICLE
+****************************/
+
+#ourHouse {
+    float: left;
+    margin: 0 2%;
+}
+
+#history p {
+    padding: 0 2%;
+    text-align: justify;
+}
+
