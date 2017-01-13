@@ -43,20 +43,15 @@ nav a {
 #main-head {
     clear: both;
     text-align: center;
-/*    background-color: #666666;  placeholder - will be replaced with img */
     color: #EDEDED;
     height: 300px;
+    background-image: url("../images/sunrisefield-copy.jpg");
+    backgrounds-blend-mode: screen;
+    background-repeat: no-repeat;
 }
 
 h1 {
     padding-top: 10%;
-}
-
-/*Background Image*/
-
-.background-image {
-  background-image: url("../images/sunrisefield-copy.jpg");
-  background-blend-mode: screen;
 }
 
 /****************************
