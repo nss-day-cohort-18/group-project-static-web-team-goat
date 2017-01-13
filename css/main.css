@@ -61,3 +61,23 @@ BODY
 /****************************
 FOOTER
 ****************************/
+#footer {
+    height: 5%;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+#footer-ul {
+    display: inline-block;
+}
+
+.footer-li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer-image {
+   height: 30px;
+   padding: 0 50px;
+}
