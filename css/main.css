@@ -1,0 +1,63 @@
+/****************************
+GENERAL
+****************************/
+
+* {
+    font-family: 'Source Sans Pro', 'Lato', sans-serif;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/****************************
+HEADER
+****************************/
+
+nav {
+    background-color: #C25454;
+    display: block;
+    height: 5%;
+    padding: 0.25%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 1%;
+}
+
+nav ul {
+
+}
+
+nav a {
+    color: #EDEDED;
+}
+
+#main-head {
+    clear: both;
+    text-align: center;
+    background-color: #666666; /* placeholder - will be replaced with img*/
+    color: #EDEDED;
+    height: 300px;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
+/****************************
+BODY
+****************************/
+
+
+
+/****************************
+FOOTER
+****************************/
