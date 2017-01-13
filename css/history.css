@@ -1,0 +1,9 @@
+#ourHouse {
+    float: left;
+    margin: 0 2%;
+}
+
+#history p {
+    padding: 0 2%;
+    text-align: justify;
+}
