@@ -19,6 +19,7 @@ div#parent {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 img {
@@ -30,6 +31,7 @@ img {
   text-align: center;
   padding-top: 5%;
   border: 3px solid red;
+  width: 30%;
 }
 
 .products p {
