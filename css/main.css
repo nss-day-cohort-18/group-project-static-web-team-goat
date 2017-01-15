@@ -103,7 +103,6 @@ FOOTER
 
 #copyrightText {
     color: #6D6D6D;
-    display: inline-block;
-    margin-left: -4.5em;
+    text-align: center;
     font-size: .75em;
 }
