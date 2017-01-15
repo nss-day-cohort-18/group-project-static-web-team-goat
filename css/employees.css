@@ -18,9 +18,9 @@ BODY
   margin: auto;
 }
 
-h2 {
+/*h2 {
   text-align: center;
-}
+}*/
 
 div#parent {
   display: flex;
@@ -30,7 +30,7 @@ div#parent {
 
 .employee-pic {
   width: 60%;
-  border: 3px solid dimgray;
+  border: 3px solid #C25454;
   border-radius: 50%;
 }
 
