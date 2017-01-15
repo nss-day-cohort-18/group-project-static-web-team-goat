@@ -9,9 +9,9 @@
   margin: auto;
 }
 
-h2 {
+/*h2 {
   text-align: center;
-}
+}*/
 
 div#parent {
   display: flex;
@@ -19,14 +19,15 @@ div#parent {
   justify-content: space-between;
 }
 
-img {
+.prod-pic {
   width: 60%;
+  height: 40%;
 }
 
 .products {
   text-align: center;
   padding-top: 5%;
-  border: 3px solid dimgray;
+  border: 3px solid #C25454;
   border-radius: 8px;
   width: 30%;
   height: 25em;
