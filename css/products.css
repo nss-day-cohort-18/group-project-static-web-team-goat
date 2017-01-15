@@ -3,3 +3,37 @@
   backgrounds-blend-mode: screen;
   background-repeat: no-repeat;
 }
+
+#main {
+  width: 75%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+div#parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img {
+  width: 60%;
+}
+
+.products {
+  text-align: center;
+  padding-top: 5%;
+  border: 3px solid dimgray;
+  border-radius: 8px;
+  width: 30%;
+  height: 25em;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.products p {
+  padding: 10%;
+}
