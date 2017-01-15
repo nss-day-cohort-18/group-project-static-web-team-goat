@@ -1,8 +1,17 @@
+/****************************
+HEADER
+****************************/
+
 #main-head {
   background-image: url("../images/dirtroadfield-copy.jpg");
   backgrounds-blend-mode: screen;
   background-repeat: no-repeat;
 }
+
+/****************************
+BODY
+****************************/
+
 
 #main {
   width: 75%;
@@ -19,7 +28,7 @@ div#parent {
   justify-content: center;
 }
 
-img {
+.employee-pic {
   width: 60%;
   border: 3px solid dimgray;
   border-radius: 50%;
