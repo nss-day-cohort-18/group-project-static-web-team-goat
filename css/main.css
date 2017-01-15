@@ -19,6 +19,10 @@ a {
     clear: both;
 }
 
+p {
+    text-align: justify;
+}
+
 /****************************
 HEADER
 ****************************/
@@ -67,7 +71,9 @@ h1 {
 /****************************
 BODY
 ****************************/
-
+#company-info {
+    padding: 0 2%;
+}
 
 
 /****************************
@@ -93,4 +99,11 @@ FOOTER
 .footer-image {
    height: 30px;
    padding: 0 50px;
+}
+
+#copyrightText {
+    color: #6D6D6D;
+    display: inline-block;
+    margin-left: -4.5em;
+    font-size: .75em;
 }
