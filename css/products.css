@@ -26,12 +26,12 @@ div#parent {
 
 .products {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 1%;
   border: 3px solid #C25454;
   border-radius: 8px;
   width: 30%;
   height: 25em;
-  overflow: hidden;
+  overflow: scroll;
   margin-bottom: 1.5em;
 }
 
