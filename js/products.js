@@ -65,28 +65,23 @@ const products = [
 const parent = document.getElementById("parent");
 
 //iterate 
-for (let prop in products) {
+for (let product in products) {
 
-//get keys and acces values, putting them in variables 
+//get keys and access values
+//and build up the string all at once
 
-let product = products[prop];
-let name = product.name;
-let description = product.description;
-let price = product.price;
-let url = product.url;
-
-//build up the string
-let card = `<article 
-			class="products"> 
-			<h2>${name}</h2> 
-			<img src="${url}" class="prod-pic" alt="goat">
-			<p>Description:</p>
-			<p>${description}</p>
-			<p>Price:</p>
-			<p>${price}</p>
-			</article>`;
+	let card = `<article 
+				class="products"> 
+				<h2>${products[product].name}</h2> 
+				<img src="${products[product].url}" class="prod-pic" alt="goat">
+				<p>Description:</p>
+				<p>${products[product].description}</p>
+				<p>Price:</p>
+				<p>${products[product].price}</p>
+				</article>`;
 
  //put it in the div 
+ 
 		parent.innerHTML += card;
 };
 
